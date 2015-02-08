@@ -1,0 +1,103 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *= require jquery.remodal
+ *= require jquery.fancybox
+ *= require bootstrap.min
+ *= require_self
+ */
+ 
+#header{
+	width:100%;
+	height:99px;
+}
+#left-header{
+  position:absolute;
+  left:0;
+	width:182px;
+	height:99px;
+	background: url(/images/topleft.png);
+}
+#right-header{
+  position:absolute;
+  right:0;
+	width:87px;
+	height:99px;
+	background: url(/images/topright.png);
+}
+#mid-header{
+  position:absolute;
+  right:87px;
+  left:182px;
+	height:99px;
+	background: url(/images/topmid.png) repeat;
+}
+
+#content{
+	width:100%;
+	background-color:#455461;
+  min-height:300px;
+}
+	
+#footer{
+	width:100%;
+  height:93px;
+}
+#left-footer{
+  position:absolute;
+  left:0;
+	width:89px;
+  height:93px;
+	background: url(/images/botleft.png);
+}
+#right-footer{
+  position:absolute;
+  right:0;
+	width:89px;
+  height:93px;
+	background: url(/images/botright.png);
+}
+#mid-footer{
+  position:absolute;
+	text-align:center;
+  right:88px;
+  left:88px;
+  height:93px;
+	background: url(/images/botmid.png) repeat;
+}
+
+#apple{
+  position:absolute;
+	text-align:center;
+  top:30%;
+  width:100%;
+}
+
+body{
+	background-color:#B0B0B0;
+	padding:0;
+	margin:0;
+	border:0;
+	width:100%;
+	height:100%;
+}
+.menu{
+	width:100%;
+}
+
+.menuitem{
+}
+
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 0 50px #222;
+}
+
+	

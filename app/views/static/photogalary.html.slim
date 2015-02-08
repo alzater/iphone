@@ -1,0 +1,17 @@
+br
+h3 
+	| Фотогалерея
+
+div
+	a.gallery.fancybox rel="group" title="это фото 1" href="images/test1.jpg"
+		img src="images/test1s.jpg"
+	a.gallery.fancybox rel="group" title="это фото 2" href="images/test2.jpg"
+		img src="images/test2s.jpg"
+	a.gallery.fancybox rel="group" href="images/test3.jpg"
+		img src="images/test3s.jpg"
+		
+script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"
+javascript:
+	$(document).ready(
+		$("a.gallery").fancybox(
+	));

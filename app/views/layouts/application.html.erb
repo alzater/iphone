@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <title>Медвежий угол</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div id="header">
+		<div id="left-header">&nbsp;</div>
+		<div id="mid-header">
+			<div>Медвежий угол</div>
+			<div><%=link_to "Главная", "/" %></div>
+			<div><%=link_to "О нас", "/info" %></div>
+			<div><%=link_to "Контакты", "/contacts" %></div>
+			<div><%=link_to "Фотогалерея", "/photos" %></div>
+			<button onclick="show_order_form();">Заказать</button>
+		</div>
+		<div id="right-header">&nbsp;</div>
+	</div>
+	<div id="apple">
+		<img src="/images/apple.png">
+	</div>
+	<div id="content">
+		<%= yield %>
+	</div>
+	<div id="footer">
+		<div id="left-footer">&nbsp;</div>
+		<div id="mid-footer">
+			&copy; 2015 "Медвежий угол", <%= link_to "Разработчики", "/developers" %> <br />
+			Полное или частичное копирование материалов сайта запрещено.
+		</div>
+		<div id="right-footer">&nbsp;</div>
+	</div>
+	<div data-remodal-id="order">
+		<div class="form-group">
+			<label>Ваше имя:</label>
+			<br />
+			<input class="form-control" id="order_name" type="text" class="order_input"></input>
+		</div>
+		<div class="form-group">
+			<label>Ваш телефон:</label>
+			<br />
+			<input class="form-control" id="order_phone" type="text" class="order_input"></input>
+		</div>
+		<div class="form-group">
+			<label>Ваше сообщение:</label>
+			<br />
+			<textarea class="form-control" rows="5" id="order_text"></textarea>
+		</div>
+		<button type="button" class="btn btn-info" onclick="send_order();">Отправить</button>
+		<p id="order_result" class="bg-info"></p>
+	</div>
+	<script>
+		inst = $('[data-remodal-id=order]').remodal();
+	</script>
+</body>
+</html>
