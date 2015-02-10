@@ -22,29 +22,41 @@
 #left-header{
   position:absolute;
   left:0;
-	width:182px;
-	height:99px;
+	width:184px;
+	height:101px;
 	background: url(/images/topleft.png);
 }
 #right-header{
   position:absolute;
   right:0;
-	width:87px;
-	height:99px;
+	width:139px;
+	height:101px;
 	background: url(/images/topright.png);
 }
 #mid-header{
   position:absolute;
-  right:87px;
-  left:182px;
-	height:99px;
+  right:139px;
+  left:184px;
+	height:101px;
 	background: url(/images/topmid.png) repeat;
 }
 
-#content{
+#mid{
 	width:100%;
-	background-color:#455461;
-  min-height:300px;
+}
+
+#left-mid{
+  width:13px;
+	background: url(/images/midleft.png) repeat;
+}
+
+#content{
+  background-color:#d0d0d6;
+}
+
+#right-mid{
+  width:10px;
+	background: url(/images/midright.png) repeat;
 }
 	
 #footer{
@@ -54,30 +66,30 @@
 #left-footer{
   position:absolute;
   left:0;
-	width:89px;
-  height:93px;
+	width:81px;
+  height:97px;
 	background: url(/images/botleft.png);
 }
 #right-footer{
   position:absolute;
   right:0;
-	width:89px;
-  height:93px;
+	width:107px;
+  height:97px;
 	background: url(/images/botright.png);
 }
 #mid-footer{
   position:absolute;
 	text-align:center;
-  right:88px;
-  left:88px;
-  height:93px;
+  right:107px;
+  left:81px;
+  height:97px;
 	background: url(/images/botmid.png) repeat;
 }
 
 #apple{
   position:absolute;
 	text-align:center;
-  top:30%;
+  top:150px;
   width:100%;
 }
 

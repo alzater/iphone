@@ -10,7 +10,6 @@
 	<div id="header">
 		<div id="left-header">&nbsp;</div>
 		<div id="mid-header">
-			<div>Медвежий угол</div>
 			<div><%=link_to "Главная", "/" %></div>
 			<div><%=link_to "О нас", "/info" %></div>
 			<div><%=link_to "Контакты", "/contacts" %></div>
@@ -22,9 +21,26 @@
 	<div id="apple">
 		<img src="/images/apple.png">
 	</div>
-	<div id="content">
-		<%= yield %>
-	</div>
+
+	<table id="mid">
+		<tr>
+			<td id="left-mid">&nbsp;</td>
+			<td id="content">
+				<br/>
+					<br/>
+						<br/>
+				<br/>
+					<br/>
+						<br/>
+				<br/>
+					<br/>
+						<br/>
+				<%= yield %>
+			</td>
+			<td id="right-mid">&nbsp;</td>
+		</tr>
+	</table>
+	
 	<div id="footer">
 		<div id="left-footer">&nbsp;</div>
 		<div id="mid-footer">
