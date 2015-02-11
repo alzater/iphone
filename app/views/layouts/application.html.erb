@@ -2,6 +2,7 @@
 <html class="no-js">
 <head>
   <title>Медвежий угол</title>
+  <meta name='yandex-verification' content='5ae82bbd456c255e' />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,11 +11,21 @@
 	<div id="header">
 		<div id="left-header">&nbsp;</div>
 		<div id="mid-header">
-			<div><%=link_to "Главная", "/" %></div>
-			<div><%=link_to "О нас", "/info" %></div>
-			<div><%=link_to "Контакты", "/contacts" %></div>
-			<div><%=link_to "Фотогалерея", "/photos" %></div>
-			<button onclick="show_order_form();">Заказать</button>
+			<div class="top-menu-item">
+				<h2>
+					<span class="label label-warning"><%=link_to "Главная", "/" %></span>
+					<span class="label label-warning"><%=link_to "О нас", "/info" %></span>
+					<span class="label label-warning"><%=link_to "Контакты", "/contacts" %></span>
+				</h2>
+			</div>
+			<div class="top-menu-order">
+				<button class="btn-lg btn-warning" onclick="show_order_form();">
+					<strong>Оценить Iphone</strong>
+				</button>
+			</div>
+			<div id="top-phone">
+				+7 (000) 000-00-00
+			</div>
 		</div>
 		<div id="right-header">&nbsp;</div>
 	</div>

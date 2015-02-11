@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *= require jquery.remodal
+ *= require static
  *= require jquery.fancybox
  *= require bootstrap.min
  *= require_self
@@ -51,11 +52,11 @@
 }
 
 #content{
-  background-color:#d0d0d6;
+  background-color:#e3e0e8;
 }
 
 #right-mid{
-  width:10px;
+  width:11px;
 	background: url(/images/midright.png) repeat;
 }
 	
@@ -110,6 +111,26 @@ body{
 
 .fancybox-custom .fancybox-skin {
 	box-shadow: 0 0 50px #222;
+}
+
+ 
+ .top-menu-item{
+	padding: 18px 20px 5px 10px;
+	float:left;
+}
+
+ .top-menu-order{
+	padding: 33px 5px 5px 20px;
+	float:left;
+}
+
+#top-phone{
+	font-size:34px;
+	color:#f0ad4e;
+	font-weight:700;
+	position:absolute;
+	top:35px;
+	right:0;
 }
 
 	
