@@ -15,6 +15,11 @@
  *= require bootstrap.min
  *= require_self
  */
+
+#wraper{
+	min-width:1200px;
+	max-width:1500px;
+}
  
 #header{
 	width:100%;
@@ -53,6 +58,7 @@
 
 #content{
   background-color:#e3e0e8;
+  padding:5px 15px 5px 15px;
 }
 
 #right-mid{
@@ -92,6 +98,7 @@
 	text-align:center;
   top:150px;
   width:100%;
+  display:none;
 }
 
 body{
@@ -120,7 +127,7 @@ body{
 }
 
  .top-menu-order{
-	padding: 33px 5px 5px 20px;
+	padding: 33px 5px 5px 15px;
 	float:left;
 }
 
@@ -130,7 +137,7 @@ body{
 	font-weight:700;
 	position:absolute;
 	top:35px;
-	right:0;
+	right:-70px;
 }
 
 	

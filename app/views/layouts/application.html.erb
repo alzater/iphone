@@ -10,11 +10,12 @@
 <body>
 	<div id="header">
 		<div id="left-header">&nbsp;</div>
+		<div id="right-header">&nbsp;</div>
 		<div id="mid-header">
 			<div class="top-menu-item">
 				<h2>
 					<span class="label label-warning"><%=link_to "Главная", "/" %></span>
-					<span class="label label-warning"><%=link_to "О нас", "/info" %></span>
+					<span class="label label-warning"><%=link_to "Экспертиза", "/info" %></span>
 					<span class="label label-warning"><%=link_to "Контакты", "/contacts" %></span>
 				</h2>
 			</div>
@@ -27,7 +28,6 @@
 				+7 (000) 000-00-00
 			</div>
 		</div>
-		<div id="right-header">&nbsp;</div>
 	</div>
 	<div id="apple">
 		<img src="/images/apple.png">
@@ -37,21 +37,12 @@
 		<tr>
 			<td id="left-mid">&nbsp;</td>
 			<td id="content">
-				<br/>
-					<br/>
-						<br/>
-				<br/>
-					<br/>
-						<br/>
-				<br/>
-					<br/>
-						<br/>
+
 				<%= yield %>
 			</td>
 			<td id="right-mid">&nbsp;</td>
 		</tr>
 	</table>
-	
 	<div id="footer">
 		<div id="left-footer">&nbsp;</div>
 		<div id="mid-footer">
