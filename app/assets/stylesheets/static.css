@@ -1,1 +1,20 @@
-
+.plusmin{
+	margin-left:35px;
+}
+.plusminhead{
+	font-size:28px;
+}
+.plusmintext{
+	font-size:18px;
+}
+.infolabel{
+	font-size:40px;
+	margin-top:10px;
+	text-align:center;
+}
+.well{
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+	
