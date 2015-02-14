@@ -9,12 +9,30 @@
 }
 .infolabel{
 	font-size:40px;
-	margin-top:10px;
+	margin:10px;
 	text-align:center;
 }
 .well{
 	padding-top:5px;
 	padding-bottom:5px;
 	margin-bottom:5px;
+}
+.orderbtn{
+	vertical-align:middle;
+	margin-left:20px;
+	color:#ff3333;
+}
+.p80{
+	color:#ff3333;
+	padding:3px;
+	background-color:gold;
+	font-size:28px;
+}
+.imagescontainer{
+	text-align:center;
+}
+.nopadding{
+	padding:0px;
+	border:0;
 }
 	
