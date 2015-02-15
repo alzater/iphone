@@ -7,7 +7,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="wrapper">
 	<div id="header">
 		<div id="left-header">&nbsp;</div>
 		<div id="right-header">&nbsp;</div>
@@ -46,8 +46,8 @@
 	<div id="footer">
 		<div id="left-footer">&nbsp;</div>
 		<div id="mid-footer">
-			&copy; 2015 "Медвежий угол", <%= link_to "Разработчики", "/developers" %> <br />
-			Полное или частичное копирование материалов сайта запрещено.
+			&copy; 2015 "IBuyIt". Полное или частичное копирование материалов сайта запрещено. <br />
+			<%= link_to "Designed in California", "/developers" %> 
 		</div>
 		<div id="right-footer">&nbsp;</div>
 	</div>
