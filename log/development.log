@@ -74806,3 +74806,1205 @@ Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-02-16 18:44:13 +
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 18:44:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 23:49:33 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 533ms (Views: 523.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 197ms (Views: 196.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.remodal.css?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery.fancybox.css?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/jquery.remodal.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/order.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:34 +0300
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-02-16 23:49:35 +0300
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:49:39 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"rthgdfg", "phone"=>"fgdhf", "text"=>"dfghd"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 20:49:39.981116"], ["name", "rthgdfg"], ["phone", "fgdhf"], ["text", "dfghd"], ["updated_at", "2015-02-16 20:49:39.981116"]]
+  [1m[35m (8.7ms)[0m  commit transaction
+Completed 500 Internal Server Error in 99ms
+
+NoMethodError (undefined method `new_order_email' for UserMailer:Class):
+  app/controllers/order_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (11.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:50:29 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"rthgdfg", "phone"=>"fgdhf", "text"=>"dfghd"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 20:50:30.050522"], ["name", "rthgdfg"], ["phone", "fgdhf"], ["text", "dfghd"], ["updated_at", "2015-02-16 20:50:30.050522"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+
+UserMailer#new_order_email: processed outbound mail in 31.4ms
+Completed 500 Internal Server Error in 50ms
+
+NameError (undefined local variable or method `order' for #<UserMailer:0x007fbe50152258>):
+  app/mailers/user_mailer.rb:5:in `new_order_email'
+  app/controllers/order_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (11.4ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:52:40 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"rthgdfg", "phone"=>"fgdhf", "text"=>"dfghd"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 20:52:40.674743"], ["name", "rthgdfg"], ["phone", "fgdhf"], ["text", "dfghd"], ["updated_at", "2015-02-16 20:52:40.674743"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+
+UserMailer#new_order_email: processed outbound mail in 0.8ms
+Completed 500 Internal Server Error in 25ms
+
+NameError (undefined local variable or method `order' for #<UserMailer:0x0000000487b2a8>):
+  app/mailers/user_mailer.rb:5:in `new_order_email'
+  app/controllers/order_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (11.1ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:53:02 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"rthgdfg", "phone"=>"fgdhf", "text"=>"dfghd"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 20:53:02.795610"], ["name", "rthgdfg"], ["phone", "fgdhf"], ["text", "dfghd"], ["updated_at", "2015-02-16 20:53:02.795610"]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/new_order_email.html.erb (0.5ms)
+
+UserMailer#new_order_email: processed outbound mail in 51.5ms
+Completed 500 Internal Server Error in 76ms
+
+NoMethodError (undefined method `deliver_later' for #<Mail::Message:0x00000005bad2b8>):
+  app/controllers/order_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (10.7ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:53:31 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"rthgdfg", "phone"=>"fgdhf", "text"=>"dfghd"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 20:53:31.152049"], ["name", "rthgdfg"], ["phone", "fgdhf"], ["text", "dfghd"], ["updated_at", "2015-02-16 20:53:31.152049"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (0.1ms)
+
+UserMailer#new_order_email: processed outbound mail in 7.7ms
+  Rendered text template (0.1ms)
+Completed 200 OK in 31ms (Views: 5.5ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 203ms (Views: 202.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.remodal.css?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery.fancybox.css?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:40 +0300
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/jquery.remodal.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/order.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:54:41 +0300
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:54:45 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 20:54:46.011231"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 20:54:46.011231"]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/new_order_email.html.erb (0.2ms)
+
+UserMailer#new_order_email: processed outbound mail in 17.3ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 0.6ms | ActiveRecord: 8.4ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-16 23:57:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 20:57:29.111853"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 20:57:29.111853"]]
+  [1m[35m (9.2ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (30.1ms)
+
+UserMailer#new_order_email: processed outbound mail in 87.5ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 185ms (Views: 1.9ms | ActiveRecord: 11.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:04:27 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:04:27.793244"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 21:04:27.793244"]]
+  [1m[35m (132.0ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (30.2ms)
+
+UserMailer#new_order_email: processed outbound mail in 81.6ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 302ms (Views: 1.7ms | ActiveRecord: 134.1ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:07:52 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:07:52.412696"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 21:07:52.412696"]]
+  [1m[35m (7.6ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (29.2ms)
+
+UserMailer#new_order_email: processed outbound mail in 80.6ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 175ms (Views: 1.7ms | ActiveRecord: 9.4ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:09:31 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 21:09:31.234163"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 21:09:31.234163"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/new_order_email.html.erb (0.2ms)
+
+UserMailer#new_order_email: processed outbound mail in 16.0ms
+
+Sent mail to alzater@mail.ru (60131.0ms)
+Date: Tue, 17 Feb 2015 00:09:31 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25c8b4cac0_377021b9f98198d2@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  gsdf
+    </p>
+    <p>
+      Phone:  dfgsgfds
+    </p>
+    <p>
+      Comment:  sdfgsg
+    </p>
+    <p>
+      Time:  2015-02-17 00:09:31 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.2ms)
+Completed 200 OK in 60173ms (Views: 2.5ms | ActiveRecord: 10.1ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:10:31 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:10:31.419754"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 21:10:31.419754"]]
+  [1m[35m (9.9ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (0.2ms)
+
+UserMailer#new_order_email: processed outbound mail in 15.6ms
+
+Sent mail to alzater@mail.ru (60063.0ms)
+Date: Tue, 17 Feb 2015 00:10:31 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25cc76d6e3_3770243cef0199e6@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  gsdf
+    </p>
+    <p>
+      Phone:  dfgsgfds
+    </p>
+    <p>
+      Comment:  sdfgsg
+    </p>
+    <p>
+      Time:  2015-02-17 00:10:31 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.1ms)
+Completed 200 OK in 60096ms (Views: 1.7ms | ActiveRecord: 10.2ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:11:31 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 21:11:31.525710"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 21:11:31.525710"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/new_order_email.html.erb (0.3ms)
+
+UserMailer#new_order_email: processed outbound mail in 10.2ms
+
+Sent mail to alzater@mail.ru (60055.6ms)
+Date: Tue, 17 Feb 2015 00:11:31 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25d0385e6b_377023046b4200f4@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  gsdf
+    </p>
+    <p>
+      Phone:  dfgsgfds
+    </p>
+    <p>
+      Comment:  sdfgsg
+    </p>
+    <p>
+      Time:  2015-02-17 00:11:31 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.1ms)
+Completed 200 OK in 60082ms (Views: 1.3ms | ActiveRecord: 9.2ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:12:31 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gsdf", "phone"=>"dfgsgfds", "text"=>"sdfgsg"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:12:31.619910"], ["name", "gsdf"], ["phone", "dfgsgfds"], ["text", "sdfgsg"], ["updated_at", "2015-02-16 21:12:31.619910"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (0.1ms)
+
+UserMailer#new_order_email: processed outbound mail in 11.4ms
+
+Sent mail to alzater@mail.ru (3894.0ms)
+Date: Tue, 17 Feb 2015 00:12:31 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25d3f9d0e4_3770224f2782017e@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  gsdf
+    </p>
+    <p>
+      Phone:  dfgsgfds
+    </p>
+    <p>
+      Comment:  sdfgsg
+    </p>
+    <p>
+      Time:  2015-02-17 00:12:31 +0300
+    </p>
+  </body>
+</html>
+
+Completed 401 Unauthorized in 3921ms
+
+
+Started GET "/contacts" for 127.0.0.1 at 2015-02-17 00:12:47 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#contacts as HTML
+  Rendered static/contacts.html.slim within layouts/application (49.0ms)
+Completed 200 OK in 503ms (Views: 494.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.remodal.css?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery.fancybox.css?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/per_page.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/order.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/jquery.remodal.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/zepto.min.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 00:12:48 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 00:12:49 +0300
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 201ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:12:54 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"gfds", "phone"=>"dsfg", "text"=>"dfsg"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:12:54.253814"], ["name", "gfds"], ["phone", "dsfg"], ["text", "dfsg"], ["updated_at", "2015-02-16 21:12:54.253814"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (0.6ms)
+
+UserMailer#new_order_email: processed outbound mail in 23.0ms
+
+Sent mail to alzater@mail.ru (60085.8ms)
+Date: Tue, 17 Feb 2015 00:12:54 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25d565a4a3_37d93f8030771bdc87387@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  gfds
+    </p>
+    <p>
+      Phone:  dsfg
+    </p>
+    <p>
+      Comment:  dfsg
+    </p>
+    <p>
+      Time:  2015-02-17 00:12:54 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.1ms)
+Completed 200 OK in 60186ms (Views: 5.2ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2015-02-17 00:15:07 +0300
+Processing by StaticController#contacts as HTML
+  Rendered static/contacts.html.slim within layouts/application (3.5ms)
+Completed 200 OK in 187ms (Views: 185.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 00:15:09 +0300
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 198ms (Views: 197.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:15:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвы"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:15:24.364281"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвы"], ["updated_at", "2015-02-16 21:15:24.364281"]]
+  [1m[35m (9.2ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (30.3ms)
+
+UserMailer#new_order_email: processed outbound mail in 91.7ms
+
+Sent mail to alzater@mail.ru (60110.6ms)
+Date: Tue, 17 Feb 2015 00:15:24 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25dec7d4b3_383f2d6822c645ca@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8B
+    </p>
+    <p>
+      Time:  2015-02-17 00:15:24 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.1ms)
+Completed 200 OK in 60311ms (Views: 6.8ms | ActiveRecord: 11.1ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:17:51 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвы"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:17:51.909074"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвы"], ["updated_at", "2015-02-16 21:17:51.909074"]]
+  [1m[35m (9.2ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (31.1ms)
+
+UserMailer#new_order_email: processed outbound mail in 91.9ms
+
+Sent mail to alzater@mail.ru (2258.5ms)
+Date: Tue, 17 Feb 2015 00:17:52 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e25e80e584_38872929080927cf@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8B
+    </p>
+    <p>
+      Time:  2015-02-17 00:17:52 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.1ms)
+Completed 200 OK in 2458ms (Views: 7.8ms | ActiveRecord: 11.3ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:25:37 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвы"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:25:37.767391"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвы"], ["updated_at", "2015-02-16 21:25:37.767391"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (29.7ms)
+
+UserMailer#new_order_email: processed outbound mail in 76.6ms
+
+Sent mail to alzater@mail.ru (39.1ms)
+Date: Tue, 17 Feb 2015 00:25:37 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e26051db1da_397a246fc607776b@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8B
+    </p>
+    <p>
+      Time:  2015-02-17 00:25:37 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 211ms (Views: 2.0ms | ActiveRecord: 11.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:26:53 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвы"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:26:53.538825"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвы"], ["updated_at", "2015-02-16 21:26:53.538825"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (2.4ms)
+
+UserMailer#new_order_email: processed outbound mail in 80.8ms
+
+Sent mail to alzater@mail.ru (38.0ms)
+Date: Tue, 17 Feb 2015 00:26:53 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e2609dabba8_39ae21935b423952@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8B
+    </p>
+    <p>
+      Time:  2015-02-17 00:26:53 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 216ms (Views: 3.0ms | ActiveRecord: 10.9ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:28:18 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвыghfd"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 21:28:18.364032"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвыghfd"], ["updated_at", "2015-02-16 21:28:18.364032"]]
+  [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/new_order_email.html.erb (0.3ms)
+
+UserMailer#new_order_email: processed outbound mail in 16.5ms
+
+Sent mail to alzater@mail.ru (6.3ms)
+Date: Tue, 17 Feb 2015 00:28:18 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e260f26007c_39ae2107b402404e@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8Bghfd
+    </p>
+    <p>
+      Time:  2015-02-17 00:28:18 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 37ms (Views: 0.6ms | ActiveRecord: 9.9ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:28:36 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвыghfd"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:28:36.584302"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвыghfd"], ["updated_at", "2015-02-16 21:28:36.584302"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (31.5ms)
+
+UserMailer#new_order_email: processed outbound mail in 80.8ms
+
+Sent mail to alzater@mail.ru (275.1ms)
+Date: Tue, 17 Feb 2015 00:28:36 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e26104b0428_39eb2da6f402775c@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8Bghfd
+    </p>
+    <p>
+      Time:  2015-02-17 00:28:36 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 455ms (Views: 2.0ms | ActiveRecord: 11.3ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:30:35 +0300
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвыghfd"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-16 21:30:35.093281"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвыghfd"], ["updated_at", "2015-02-16 21:30:35.093281"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/new_order_email.html.erb (0.4ms)
+
+UserMailer#new_order_email: processed outbound mail in 16.7ms
+
+Sent mail to alzater@mail.ru (885.4ms)
+Date: Tue, 17 Feb 2015 00:30:35 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e2617b1e8bb_39eb2ba1a4c278af@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8Bghfd
+    </p>
+    <p>
+      Time:  2015-02-17 00:30:35 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.1ms)
+Completed 200 OK in 920ms (Views: 1.2ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/order/new" for 127.0.0.1 at 2015-02-17 00:32:26 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrderController#new as */*
+  Parameters: {"name"=>"фап", "phone"=>"ыавп", "text"=>"вапвыghfd"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "name", "phone", "text", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-16 21:32:26.445935"], ["name", "фап"], ["phone", "ыавп"], ["text", "вапвыghfd"], ["updated_at", "2015-02-16 21:32:26.445935"]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  Rendered user_mailer/new_order_email.html.erb (29.9ms)
+
+UserMailer#new_order_email: processed outbound mail in 82.7ms
+
+Sent mail to alzater@mail.ru (37.1ms)
+Date: Tue, 17 Feb 2015 00:32:26 +0300
+From: alzater@mail.ru
+To: alzater@mail.ru
+Message-ID: <54e261ea8e0d7_3a8a2762cb0419f@alzater-PORTEGE-Z930.mail>
+Subject: New Order
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>New order.</h1>
+    <p>
+      Name:  =D1=84=D0=B0=D0=BF
+    </p>
+    <p>
+      Phone:  =D1=8B=D0=B0=D0=B2=D0=BF
+    </p>
+    <p>
+      Comment:  =D0=B2=D0=B0=D0=BF=D0=B2=D1=8Bghfd
+    </p>
+    <p>
+      Time:  2015-02-17 00:32:26 +0300
+    </p>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 221ms (Views: 1.8ms | ActiveRecord: 9.2ms)
