@@ -31,6 +31,9 @@
 .imagescontainer{
 	text-align:center;
 }
+.imagerow{
+	max-height:300px;
+}
 .nopadding{
 	padding:0px;
 	border:0;

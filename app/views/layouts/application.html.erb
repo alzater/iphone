@@ -7,69 +7,71 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="wraper">
-	<div id="header" class="container-fluid">
-		<div id="left-header">&nbsp;</div>
-		<div id="right-header">&nbsp;</div>
-		<div id="mid-header">
-			<div class="top-menu-item">
-				<h2>
+<body>
+	<div class="container wraper">
+
+
+
+
+		<nav id="header" class="navbar noind">
+			<div id="left-header" class="nav navbar-nav navbar-left">&nbsp;</div>
+			<div id="right-header" class="nav navbar-nav navbar-right">&nbsp;</div>
+
+			<div class="nav navbar-nav" id="mid-header">
+				<div class="top-menu-item">
 					<span class="label label-warning gold"><%=link_to "Главная", "/" %></span>
 					<span class="label label-warning gold"><%=link_to "Экспертиза", "/info" %></span>
 					<span class="label label-warning gold"><%=link_to "Контакты", "/contacts" %></span>
-				</h2>
+				</div>
+				<div class="top-menu-order">
+					<button class="btn-lg btn-warning gold" onclick="show_order_form();">
+						<strong>Продать Iphone</strong>
+					</button>
+				</div>
+				
 			</div>
-			<div class="top-menu-order">
-				<button class="btn-lg btn-warning gold" onclick="show_order_form();">
-					<strong>Продать Iphone</strong>
-				</button>
-			</div>
-			<div id="top-phone">
-				+7 (915) 470-70-20
-			</div>
-		</div>
-	</div>
-	<div id="apple">
-		<img src="/images/apple.png">
-	</div>
+			<div id="top-phone">+7 (915) 470-70-20</div>				
+		</nav>
 
-	<table id="mid">
-		<tr>
-			<td id="left-mid">&nbsp;</td>
-			<td id="content">
+		<table id="mid">
+			<tr>
+				<td id="left-mid">&nbsp;</td>
+				<td id="content">
 
-				<%= yield %>
-			</td>
-			<td id="right-mid">&nbsp;</td>
-		</tr>
-	</table>
-	<div id="footer">
-		<div id="left-footer">&nbsp;</div>
-		<div id="mid-footer">
-			&copy; 2015 "IBuyIt". Полное или частичное копирование материалов сайта запрещено. <br />
-			<%= link_to "Designed in California", "/developers" %> 
+					<%= yield %>
+				</td>
+				<td id="right-mid">&nbsp;</td>
+			</tr>
+		</table>
+		<div id="footer">
+			<div id="left-footer">&nbsp;</div>
+			<div id="mid-footer">
+				&copy; 2015 "IBuyIt". Полное или частичное копирование материалов сайта запрещено. <br />
+				<%= link_to "Designed in California", "/developers" %> 
+			</div>
+			<div id="right-footer">&nbsp;</div>
 		</div>
-		<div id="right-footer">&nbsp;</div>
+		<div data-remodal-id="order">
+			<div class="form-group">
+				<label>Ваше имя:</label>
+				<br />
+				<input class="form-control" id="order_name" type="text" class="order_input"></input>
+			</div>
+			<div class="form-group">
+				<label>Ваш телефон:</label>
+				<br />
+				<input class="form-control" id="order_phone" type="text" class="order_input"></input>
+			</div>
+			<div class="form-group">
+				<label>Ваше сообщение:</label>
+				<br />
+				<textarea class="form-control" rows="5" id="order_text"></textarea>
+			</div>
+			<button type="button" class="btn btn-info" onclick="send_order();">Отправить</button>
+			<p id="order_result" class="bg-info"></p>
+		</div>
 	</div>
-	<div data-remodal-id="order">
-		<div class="form-group">
-			<label>Ваше имя:</label>
-			<br />
-			<input class="form-control" id="order_name" type="text" class="order_input"></input>
-		</div>
-		<div class="form-group">
-			<label>Ваш телефон:</label>
-			<br />
-			<input class="form-control" id="order_phone" type="text" class="order_input"></input>
-		</div>
-		<div class="form-group">
-			<label>Ваше сообщение:</label>
-			<br />
-			<textarea class="form-control" rows="5" id="order_text"></textarea>
-		</div>
-		<button type="button" class="btn btn-info" onclick="send_order();">Отправить</button>
-		<p id="order_result" class="bg-info"></p>
-	</div>
+	
 	<script>
 		inst = $('[data-remodal-id=order]').remodal();
 	</script>
